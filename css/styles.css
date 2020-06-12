@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	color:white;
+}
+
+body{
+
+	background-image: url(../img/fondo.jpg);
+	background-size: cover;
+
+}
+
+/* MENU */
+
+.navbar-brand{
+	color: #fff !important;
+}
+
+.navbar-nav li{
+	padding: 0 14px; /* Espaciado entre palabras */
+}
+
+.navbar-nav li a{
+	color: #fff !important;	/* FONT COLOR */
+	font-weight: 700; 		/* LETRA MAS FUERTE :V*/
+	float: right;			/* Alineado a la derecha en RESPONSIVE */
+	text-align: left;
+	font-size: 20px;
+
+}
+
+
+/* FIN MENU */
+
+
+/* SECCION PRINCIPAL */
+
+.imagen{
+	height: 100%;
+	width: 57%;
+	margin-top: 20px;
+
+}
+.central-h1{
+
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 70px;
+	text-transform: uppercase;
+
+}
+.central-h2{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 55px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.central-p{
+	font-size: 25px;
+	margin-right: 55px;
+	text-align: justify;
+	font-weight: 600;
+
+}
+
+#central .btn-light{
+
+	padding: 8px 25px;	/* TAMAÑO DEL BOTON */
+	border:none;		/* SIN BORDES*/
+	border-radius: 20px;/* BORDE PERSONALIZADO */
+	font-size: 30px;
+	color: black;
+	margin-left: 300px;
+
+}
+
+/* FIN SECCION PRINCIPAL */
+
+/*------------------- MOBILE RESPONSIVE -------------------*/
+
+@media only screen and (max-width: 600px) {
+
+	.central-p{
+		margin-right: 0;
+	}
+
+	#central .btn-light{
+		margin: 0px 0px 0px 150px;
+	}
+}
